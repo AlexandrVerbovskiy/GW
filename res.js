@@ -182,10 +182,6 @@ document.onkeydown = function(e){
 
   e = e || window.event;
   let key = e.which || e.keyCode;
-  if(key===81){
-    alert(xpos);
-    alert(ypos);
-  }
 
   if(key===38){
     if(ypos>topLim){
