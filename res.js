@@ -406,7 +406,7 @@ zp-=u2;
 u2*=2;
 p2++;
 let interval5 = setInterval( function q5() {zp1+=sl; 
- document.getElementById("div1").innerHTML =zp1+"Val";}
+ document.getElementById("div1").innerHTML =zp1+"VAL";}
 ,1000);
 document.getElementById("menu2").innerHTML =u2+"$";
 } else {
@@ -456,7 +456,7 @@ sl1+=20;
 let interval5 = setInterval( function q5() {zp+=sl1; 
  document.getElementById("div1").innerHTML =zp+"$";}
 ,5000);
-  document.getElementById("menu5").innerHTML =u4+"Val";
+  document.getElementById("menu5").innerHTML =u4+"VAL";
 } else {
   alert("Зароби більше грошей");
 }
@@ -475,7 +475,7 @@ zp1-=u5;
 u5*=2;
 p5++;
 mph+=20;
-  document.getElementById("menu4").innerHTML =u5+"Val";
+  document.getElementById("menu4").innerHTML =u5+"VAL";
 } else {
   alert("Зароби більше грошей");
 }
