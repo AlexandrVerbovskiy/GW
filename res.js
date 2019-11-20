@@ -177,7 +177,7 @@ alert(d);
 }
 */
 let zp1=0;
-let zp=1500;
+let zp=150000;
 document.onkeydown = function(e){
 
   e = e || window.event;
@@ -276,7 +276,7 @@ let interval = setInterval(
   function game() {
     if(zp<15){
       alert("you lose");
-      zp=1500;
+      zp=150000;
 x1=20;
       xpos=xposq;
       ypos=yposq;
