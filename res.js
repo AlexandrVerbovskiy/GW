@@ -377,11 +377,11 @@ draw1();}
     let u1=150;
     let p1=0;
 function shop1(){
-  if(p1<10){
+  if(p1<100){
       if(zp>=u1){
 zp-=u1;
 t-=0.25;
-u1*=2;
+u1+=20;
 p1++;
   document.getElementById("menu1").innerHTML =u1+"$";
 } else {
@@ -399,11 +399,11 @@ function shop2(){
   if(p1<5){
     alert("прокачай попередній скіл до 5 рівня!");}
     else{
-    if(p2<10){
+    if(p2<50){
       if(zp>=u2){
         sl++;
 zp-=u2;
-u2*=2;
+u2+=50;
 p2++;
 let interval5 = setInterval( function q5() {zp1+=sl; 
  document.getElementById("div1").innerHTML =zp1+"VAL";}
@@ -424,10 +424,10 @@ function shop3(){
     if(p2<5){
     alert("прокачай попередній скіл до 5 рівня!");}
     else{
-      if(p3<10){
+      if(p3<20){
       if(zp>=u3){
 zp-=u3;
-u3*=2;
+u3+=250;
 p3++;
 x1+=5;
   document.getElementById("menu3").innerHTML =u3+"$";
@@ -447,10 +447,10 @@ function shop4(){
     if(p5<5){
     alert("прокачай попередній скіл до 5 рівня!");}
     else{
-      if(p4<10){
+      if(p4<100){
       if(zp1>=u4){
 zp1-=u4;
-u4*=2;
+u4+=100;
 p4++;
 sl1+=20;
 let interval5 = setInterval( function q5() {zp+=sl1; 
@@ -469,10 +469,10 @@ let interval5 = setInterval( function q5() {zp+=sl1;
 let u5=100;
 let p5=0;
 function shop5(){
-      if(p5<10){
+      if(p5<100){
       if(zp1>=u5){
 zp1-=u5;
-u5*=2;
+u5+=500;
 p5++;
 mph+=20;
   document.getElementById("menu4").innerHTML =u5+"VAL";
