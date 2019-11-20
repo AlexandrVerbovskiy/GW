@@ -177,7 +177,7 @@ alert(d);
 }
 */
 let zp1=0;
-let zp=150000;
+let zp=1500;
 document.onkeydown = function(e){
 
   e = e || window.event;
@@ -276,7 +276,7 @@ let interval = setInterval(
   function game() {
     if(zp<15){
       alert("you lose");
-      zp=150000;
+      zp=1500;
 x1=20;
       xpos=xposq;
       ypos=yposq;
@@ -377,7 +377,7 @@ draw1();}
     let u1=150;
     let p1=0;
 function shop1(){
-  if(p1<100){
+  if(p1<10){
       if(zp>=u1){
 zp-=u1;
 t-=0.25;
@@ -424,10 +424,10 @@ function shop3(){
     if(p2<5){
     alert("прокачай попередній скіл до 5 рівня!");}
     else{
-      if(p3<20){
+      if(p3<5){
       if(zp>=u3){
 zp-=u3;
-u3+=250;
+u3+=750;
 p3++;
 x1+=5;
   document.getElementById("menu3").innerHTML =u3+"$";
@@ -450,7 +450,7 @@ function shop4(){
       if(p4<100){
       if(zp1>=u4){
 zp1-=u4;
-u4+=100;
+u4+=500;
 p4++;
 sl1+=20;
 let interval5 = setInterval( function q5() {zp+=sl1; 
@@ -472,7 +472,7 @@ function shop5(){
       if(p5<100){
       if(zp1>=u5){
 zp1-=u5;
-u5+=500;
+u5+=100;
 p5++;
 mph+=20;
   document.getElementById("menu4").innerHTML =u5+"VAL";
